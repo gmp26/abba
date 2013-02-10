@@ -1,12 +1,12 @@
 {
-  "author": "Kyle Finley <kyle.finley@gmail.com>",
-  "name": "sapling-seed",
-  "description": "AngularJS + Brunch",
-  "version": "0.1.0",
-  "homepage": "https://github.com/scotch/angular-brunch-seed",
+  "author": "Mike Pearson <gmp26@cam.ac.uk>",
+  "name": "abba",
+  "description": "AngularJS Brunch Bower App seedling",
+  "version": "0.1.1",
+  "homepage": "https://github.com/gmp26/abba",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scotch/angular-brunch-seed"
+    "url": "https://github.com/gmp26/abba"
   },
   "engines": {
     "node": "~0.6.10 || 0.8 || 0.9"
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "brunch": ">= 1.4 < 1.5",
-
+    
     "coffee-script-brunch": ">= 1.0 < 1.5",
     "coffeelint-brunch": ">= 1.0 < 1.5",
 
@@ -34,7 +34,8 @@
     "bower-asserts-brunch": "*",
     "bower": "~0.7.0",
 
-    "jade-angularjs-brunch" : "0.0.3"
+    "jade-angularjs-brunch" : ">= 0.0.1 < 1.5"
+    //"jade-angularjs-brunch" : "0.0.3"
   },
   "devDependencies": {
     "jade": ">= 0.27.7",

@@ -1,6 +1,8 @@
 ###### Notice ######
 
-*This file documents the changes in **angular-brunch-seed** versions that are listed below.*
+*This file documents the changes in **abba** versions that are listed below.*
+### 0.1.0 ###
++ Renamd to Abba  and adapted for use in Cambridge Maths Outreach projects
 
 * * *
 

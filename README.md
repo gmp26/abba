@@ -1,7 +1,7 @@
-# angular-brunch-seed
-### A starter project for AngularJS using Brunch.io
+# abba
+### A starter project for an AngularJS App using Brunch.io and Bower
 
-[AngularJS](http://angularjs.org) + [Brunch](http://brunch.io)
+[AngularJS](http://angularjs.org) + [Brunch](http://brunch.io) + [Bower](http://twitter.github.com/bower)
 
 Features:
 * Coffeescript / Jade / Less / SASS / SCSS / Stylus automatically compiled on save
@@ -12,19 +12,19 @@ Features:
 * Bootstrap integration with themes.
 
 ## Alternate Versions
-
+- [Angular Brunch Seed](https://github.com/scotch/angular-brunch-seed.git) by 
 - [Livescript](https://github.com/clkao/angular-brunch-seed-livescript) by [@clkao](https://github.com/clkao) - Uses [Livescript](http://livescript.net/) instead of [Coffeescript](http://coffeescript.org/)
 - [True North](https://github.com/scoarescoare/angular-brunch-true-north) by [@scoarescoare](https://github.com/scoarescoare) - Uses [SASS](http://sass-lang.com/) instead of [LESS](http://lesscss.org/)
 
-## How to use angular-brunch-seed
+## How to use abba
 
-* `git clone https://github.com/scotch/angular-brunch-seed.git` to clone the **angular-brunch-seed** repository
-* `cd angular-brunch-seed`
+* `git clone https://github.com/gmp26/abba.git yaapp` to clone the **abba** repository into a new app called 'yaapp'
+* `cd yaapp`
 * `./scripts/init.sh` to install node packages
 
 or if you have **Brunch** installed run:
 
-`brunch new myapp --skeleton https://github.com/scotch/angular-brunch-seed`
+`brunch new yaapp --skeleton https://github.com/gmp26/abba`
 
 
 ### Using Jade
@@ -35,7 +35,7 @@ changes to their `*.jade` counter part.
 
 ### Using html
 
-By default angular-brunch-seed uses jade templates. If you would prefer to use HTML run the command:
+By default abba uses jade templates. If you would prefer to use HTML run the command:
 
 ```
 ./scripts/compile-html.sh
@@ -97,7 +97,7 @@ fetch the changes and merge them into your project with git.
 
 ## Directory Layout
 
-    _public/                  --> Contains generated file for servering the app
+    _public/                  --> Contains generated file for serving the app
                                   These files should not be edited directly
     app/                      --> all of the files to be used in production
 
@@ -182,6 +182,6 @@ fetch the changes and merge them into your project with git.
 
 ## Contributers
 
-[Complete list of code contributers](https://github.com/scotch/angular-brunch-seed/graphs/contributors)
+[Complete list of code contributers](https://github.com/gmp26/abba/graphs/contributors)
 
-For more information on angular please check out <http://angularjs.org>
+For more information on angular please see <http://angularjs.org>
